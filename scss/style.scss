@@ -1,0 +1,19 @@
+@import 'abstract/variables';
+
+@import 'base/reset',
+'base/base',
+'base/commons';
+
+@import 'pages/index';
+
+@import "components/icons",
+'components/profilepic',
+"components/underline",
+"components/scroll",
+"components/slider",
+"components/slider2",
+"components/slider3";
+
+
+@import "layout/background",
+"layout/footer";

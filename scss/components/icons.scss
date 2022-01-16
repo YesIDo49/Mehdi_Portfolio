@@ -1,0 +1,13 @@
+.menu-icon{
+  background: linear-gradient(90deg, rgba(65,85,255,1) 0%, rgb(47, 188, 255) 100%);
+  font-size: 36px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 900px) { /* Size for mobile */
+  .menu-icon{
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+footer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.glass-footer {
+  background: white;
+  margin: 25px 0;
+  min-height: 20vh;
+  width: 80%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(0.2rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+  margin: auto;
+}
+.glass-footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=footer.css.map */

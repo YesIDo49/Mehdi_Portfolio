@@ -1,0 +1,24 @@
+.user{
+  img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #658ec6;
+  }
+}
+
+@media (max-width: 900px) { /* Size for mobile */
+  .user{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    img{
+      width: 50px;
+      border-radius: 50%;
+      border: 5px solid #658ec6;
+    }
+  }
+
+
+}
+
+
