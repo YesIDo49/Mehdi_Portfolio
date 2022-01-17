@@ -139,7 +139,7 @@ main {
 .title_pic {
   top: -33%;
   position: absolute;
-  left: 61%;
+  left: 65%;
   width: 230px;
 }
 
@@ -742,6 +742,24 @@ body::-webkit-scrollbar-thumb {
     font-size: 0.9em;
   }
 }
+.progress {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 25%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ececec;
+  position: absolute;
+  left: 60%;
+}
+
 .wrapper {
   position: absolute;
   overflow: hidden;
