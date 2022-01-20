@@ -1,17 +1,22 @@
-.collapse:not(.show){
-  display:none
+#more-button {
+  border-style: none;
+  background: none;
+  margin: 0 0 10px 0;
+  cursor: pointer;
 }
-.collapsing{
-   position:relative;
-   height:0;
-   overflow:hidden;
-   transition:height .35s ease
- }
 
-.show{
-  display: flex;
+#grow input:checked {
 }
-@media screen and (prefers-reduced-motion:reduce){
-  .collapsing{
-    transition:none
-  }}
+
+#more-button:hover {
+}
+
+.grow {
+  -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  height: 0;
+  overflow: hidden;
+}

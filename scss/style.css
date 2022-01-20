@@ -847,26 +847,23 @@ body::-webkit-scrollbar-thumb {
   transition: 0.6s ease-out;
 }
 
-.collapse:not(.show) {
-  display: none;
+#more-button {
+  border-style: none;
+  background: none;
+  margin: 0 0 10px 0;
+  cursor: pointer;
 }
 
-.collapsing {
-  position: relative;
+.grow {
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
   height: 0;
   overflow: hidden;
-  transition: height 0.35s ease;
 }
 
-.show {
-  display: flex;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .collapsing {
-    transition: none;
-  }
-}
 body {
   background-attachment: fixed;
 }
