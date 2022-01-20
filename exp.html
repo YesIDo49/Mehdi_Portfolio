@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/2b02a79d23.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
+<div class="cursor">
+    <div class="cursor-fill"></div>
+</div>
+
 
 <div class="wrapper">
     <div class="box">
@@ -22,6 +26,7 @@
         <div class="moving-box"></div>
         <div class="moving-box"></div>
     </div>
+
 
 
     <main>
@@ -70,6 +75,24 @@
                     <img src="./img/exp.svg" class="title_pic2" alt="exp" />
                 </div>
                 <br>
+
+
+                <div class="card">
+                    <div class="card-info">
+                        <a href="#CollapseCompte" data-toggle="collapse" aria-expanded="false" aria-controls="CollapseCompte">
+                            <h2>DUT Informatique</h2>
+                            <h3><i>Septembre 2019 - Juillet 2021</i></h3></a>
+                        <section id="CollapseCompte" class="collapse">
+                            <div class="colCompte">
+                                <p>Je suis un étudiant de 2ème année à l'IUT Paris Descartes. Durant ces 2 années en études supérieures, j'ai pu me créer de véritables bases dans le domaine de l'informatique, et plus particulièrement dans le développement web. Malgré la crise sanitaire, j'ai réussi à apprendre et maitriser plusieurs langages et outils numérique. Grâce aux nombreux projets sur lesquels j'ai travaillé, j'ai pu mettre mes connaissances à l'épreuve tout en apprenant davantage. C'est grâce à ce DUT que j'ai découvert ma passion pour le développement web et je compte bien poursuivre mes études pour me spécialiser dans ce domaine !</p>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+
                 <div class="cards">
                     <div class="card">
                         <div class="card-info">
@@ -78,6 +101,7 @@
                             <p>Je suis actuellement un étudiant de 2ème année en Développement Web à l'école IIM de Leonard De Vinci. Avec mon DUT Informatique en poche, j'ai pu rejoindre l'IIM dans le but d'obtenir un Mastère de Développement Web. Grâce à l'expérience acquise lors de mon DUT, j'ai pu directement entrer en 2ème année afin d'obtenir, dans un premier temps, un Bachelor en 3ème année, puis par la suite, un Mastère en 5ème année. Ma filière est spécialisé dans le Développement Web, je suis totalement focalisé sur ce qui m'interesse et me permet d'aprendre énorménent de choses sur le domaine qui me passione. </p>
                         </div>
                     </div>
+
 
                     <div class="card">
                         <div class="card-info">
@@ -170,6 +194,8 @@
         </div>
     </footer>
 </div>
-
+</svg>
 </body>
+
+<script src="script.js"></script>
 </html>
