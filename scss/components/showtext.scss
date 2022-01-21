@@ -1,14 +1,30 @@
-#more-button {
+.more-button {
   border-style: none;
   background: none;
-  margin: 0 0 10px 0;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  margin-right: 10px;
 }
 
-#grow input:checked {
+
+
+
+.fa-arrow-circle-down{
+  color: #658ec6;
+  font-size: 32px;
+  transition: 0.45s ease-in-out;
 }
 
-#more-button:hover {
+.fa-arrow-circle-down:checked{
+  transform: rotate(180deg);
+}
+
+.grow input:checked {
+}
+
+.more-button:hover {
 }
 
 .grow {

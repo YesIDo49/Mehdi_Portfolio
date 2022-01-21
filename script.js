@@ -33,13 +33,34 @@ document.addEventListener('mousemove', e=>{
 
 //Read more
 
-function growDiv() {
- var growDiv = document.querySelector('.grow');
+function growDiv(divid) {
+ var growDiv = document.getElementById(divid);
+ var iconArrow = growDiv.parentElement.querySelector(".fa-arrow-circle-down")
+
+ //var growDiv = document.querySelector('.grow');
  if (growDiv.clientHeight) {
   growDiv.style.height = 0;
+  iconArrow.style.transform = "rotate(0deg)";
  } else {
   var wrapper = document.querySelector('.measuringWrapper');
   growDiv.style.height = wrapper.clientHeight + "px";
+  iconArrow.style.transform = "rotate(180deg)";
+
  }
- document.getElementById("more-button").value = document.getElementById("more-button").value == 'Read more' ? 'Read less' : 'Read more';
+ document.querySelectorAll(".more-button").value = document.querySelectorAll(".more-button").value == 'Read more' ? 'Read less' : 'Read more';
 }
+
+
+// function myFunction(divid) {
+//
+//  var x = document.getElementById(divid);
+//
+//  if (x.style.display == "none")
+//  {
+//   x.style.display = "block";
+//  }
+//  else {
+//   x.style.display = "none";
+//  }
+// }
+
