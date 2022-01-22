@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./img/me-logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <script src="https://kit.fontawesome.com/2b02a79d23.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -71,13 +73,13 @@
             </div>
             <div class="content">
                 <div class="title">
-                    <h1>Qui suis-je ?</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="1000">Qui suis-je ?</h1>
                     <input type="text" />
-                    <img src="./img/question.svg" class="title_pic" alt="question" />
+                    <img src="./img/question.svg" data-aos="fade-left" data-aos-duration="1000" class="title_pic" alt="question" />
                 </div>
                 <br>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-duration="1000">
                         <div class="card-info">
                             <h2>Mon parcours</h2><br>
                             <p>Diplômé d’un Bac STI2D et d'un DUT Informatique, je suis en cours de deuxième année à l'IIM pour mon Bachelor de Développement web et souhaite préparer mon Mastère afin de devenir développeur Front-End.</p>
@@ -94,7 +96,7 @@
             </div>
         </section>
     </main>
-    <footer class="">
+    <footer data-aos="fade-up" data-aos-duration="1000">
         <div class="glass-footer">
             <div class="contact">
                 <h3>Contactez moi !</h3>
@@ -128,6 +130,11 @@
 </div>
 
 </body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="script.js"></script>
 
 </html>

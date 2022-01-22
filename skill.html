@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./img/me-logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <script src="https://kit.fontawesome.com/2b02a79d23.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -73,14 +75,14 @@
             </div>
             <div class="content">
                 <div class="title">
-                    <h1>Mes compétences</h1>
+                    <h1 data-aos="fade-right">Mes compétences</h1>
                     <input type="text" />
-                    <img src="./img/skill.svg" class="title_pic" alt="question" />
+                    <img src="./img/skill.svg" data-aos="fade-left" class="title_pic" alt="question" />
                 </div>
                 <br><br>
-                <p>Au cours de mes études, j'ai pu acquérir de nouvelles compétences. Que ce soient de nouveaux langages ou de nouveaux outils, je ne cesse de découvrir de nouvelles choses et apprends à les maitriser à la perfection.</p>
+                <p data-aos="fade-right">Au cours de mes études, j'ai pu acquérir de nouvelles compétences. Que ce soient de nouveaux langages ou de nouveaux outils, je ne cesse de découvrir de nouvelles choses et apprends à les maitriser à la perfection.</p>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <div class="card-info">
                             <h2>Langages informatiques et Frameworks</h2><br>
                             <div class="slider2-bg">
@@ -141,7 +143,7 @@
 
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <div class="card-info">
                             <h2>Outils</h2><br>
                             <div class="slider3-bg">
@@ -194,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-left">
                     <div class="card-info">
                         <h2>Langues</h2><br>
                         <div class="container-lang">
@@ -238,7 +240,7 @@
             </div>
         </section>
     </main>
-    <footer class="">
+    <footer data-aos="fade-up" data-aos-duration="1000">
         <div class="glass-footer">
             <div class="contact">
                 <h3>Contactez moi !</h3>
@@ -272,6 +274,10 @@
 </div>
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="slider2.js"></script>
 <script src="slider3.js"></script>
 <script src="script.js"></script>
