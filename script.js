@@ -79,3 +79,12 @@ AOS.init({
  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+
+//cursor
+
+var cursor = document.querySelector(".cursor");
+document.addEventListener('mousemove', e=>{
+ cursor.setAttribute("style", "top:" + (e.pageY -10) +"px; left:" + (e.pageX-10)+"px");
+
+})
